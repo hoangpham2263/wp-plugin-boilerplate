@@ -1,0 +1,453 @@
+/* HP Plugin Standard - Admin Styles */
+
+/* Dashboard Layout */
+.hp-dashboard-content {
+    margin-top: 20px;
+}
+
+/* Section Headers */
+.hp-plugins-section h2,
+.hp-system-section h2,
+.hp-company-section h2 {
+    margin: 30px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e1e1e1;
+    color: #1d2327;
+}
+
+.hp-plugins-section h2 .dashicons,
+.hp-system-section h2 .dashicons,
+.hp-company-section h2 .dashicons {
+    color: #0073aa;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Welcome Section */
+.hp-welcome-section {
+    margin-bottom: 30px;
+}
+
+.hp-welcome-section .hp-card {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hp-welcome-section h2 {
+    margin-top: 0;
+    color: #1d2327;
+    font-size: 24px;
+}
+
+/* Table Styling */
+.hp-plugins-table-wrapper {
+    margin: 20px 0;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hp-plugins-table-wrapper table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Table Headers */
+.hp-plugins-table-wrapper th {
+    background: #f8f9fa;
+    padding: 15px 12px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 2px solid #e1e1e1;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.hp-plugins-table-wrapper th.column-plugin-stt,
+.hp-plugins-table-wrapper th.column-plugin-version,
+.hp-plugins-table-wrapper th.column-plugin-status,
+.hp-plugins-table-wrapper th.column-plugin-actions {
+    text-align: center;
+}
+
+/* Table Cells */
+.hp-plugins-table-wrapper td {
+    padding: 12px 8px;
+    vertical-align: middle;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.hp-plugins-table-wrapper td.column-plugin-stt,
+.hp-plugins-table-wrapper td.column-plugin-version,
+.hp-plugins-table-wrapper td.column-plugin-status,
+.hp-plugins-table-wrapper td.column-plugin-actions {
+    text-align: center;
+}
+
+.hp-plugins-table-wrapper td.column-plugin-name {
+    text-align: left;
+}
+
+/* Stt Numbers */
+.hp-plugins-table-wrapper .column-plugin-stt .hp-stt-number {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Plugin Names */
+.hp-plugins-table-wrapper .column-plugin-name strong {
+    color: #1d2327;
+    display: block;
+    line-height: 1.4;
+}
+
+/* Plugin Descriptions */
+.hp-plugins-table-wrapper .column-plugin-description span {
+    color: #646970;
+    display: block;
+    line-height: 1.4;
+}
+
+/* Version Badges */
+.hp-version-badge {
+    background: #d1ecf1;
+    color: #0c5460;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Status Badges */
+.hp-status-active {
+    background: #d4edda;
+    color: #155724;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hp-status-active .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* Action Buttons */
+.hp-plugins-table-wrapper .column-plugin-actions .button {
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hp-plugins-table-wrapper .column-plugin-actions .button .dashicons {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* Company Information Section */
+.hp-company-section {
+    margin: 30px 0;
+}
+
+.hp-company-info {
+    margin: 20px 0;
+}
+
+.hp-company-card {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.hp-company-logo {
+    flex-shrink: 0;
+}
+
+.hp-company-logo .dashicons {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    color: #0073aa;
+    background: #f0f6fc;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.hp-company-details {
+    flex: 1;
+}
+
+.hp-company-details h3 {
+    margin: 0 0 20px 0;
+    color: #1d2327;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hp-company-contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.hp-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border-left: 3px solid #0073aa;
+}
+
+.hp-contact-item .dashicons {
+    color: #0073aa;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.hp-contact-item strong {
+    color: #1d2327;
+    margin-right: 5px;
+}
+
+.hp-contact-item a {
+    color: #0073aa;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.hp-contact-item a:hover {
+    color: #005a87;
+    text-decoration: underline;
+}
+
+/* System Information Grid */
+.hp-system-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.hp-system-grid .hp-card {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hp-system-grid .hp-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* System Card Borders */
+.hp-system-grid .hp-card:nth-child(1) {
+    border-left: 4px solid #0073aa;
+}
+
+.hp-system-grid .hp-card:nth-child(2) {
+    border-left: 4px solid #28a745;
+}
+
+.hp-system-grid .hp-card:nth-child(3) {
+    border-left: 4px solid #ffc107;
+}
+
+.hp-system-grid .hp-card:nth-child(4) {
+    border-left: 4px solid #6f42c1;
+}
+
+/* System Card Headers */
+.hp-system-grid .hp-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #1d2327;
+    font-size: 18px;
+}
+
+.hp-system-grid .hp-card h3 .dashicons {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* System Card Numbers */
+.hp-system-grid .hp-card .hp-stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.hp-system-grid .hp-card:nth-child(1) .hp-stat-number {
+    color: #0073aa;
+}
+
+.hp-system-grid .hp-card:nth-child(2) .hp-stat-number {
+    color: #28a745;
+}
+
+.hp-system-grid .hp-card:nth-child(3) .hp-stat-number {
+    color: #ffc107;
+}
+
+.hp-system-grid .hp-card:nth-child(4) .hp-stat-number {
+    color: #6f42c1;
+}
+
+/* System Card Labels */
+.hp-system-grid .hp-card .hp-stat-label {
+    color: #646970;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+/* No Plugins Message */
+.hp-no-plugins .hp-card {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hp-no-plugins p {
+    margin: 10px 0;
+    color: #646970;
+}
+
+.hp-no-plugins p strong {
+    color: #1d2327;
+}
+
+/* Plugin Specific Styles */
+.hp-plugin-main,
+.hp-plugin-settings,
+.hp-plugin-card,
+.hp-plugin-info {
+    margin: 20px 0;
+}
+
+.hp-plugin-settings {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hp-plugin-card {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hp-plugin-info {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e1e1;
+}
+
+/* Plugin Info Styling */
+.hp-plugin-info h4 {
+    margin-top: 0;
+    color: #1d2327;
+    font-size: 18px;
+}
+
+.hp-plugin-info ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.hp-plugin-info li {
+    margin: 8px 0;
+    color: #646970;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hp-system-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .hp-plugins-table-wrapper {
+        overflow-x: auto;
+    }
+    
+    .hp-plugins-table-wrapper table {
+        min-width: 600px;
+    }
+    
+    .hp-company-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .hp-company-contact {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .hp-plugins-table-wrapper th,
+    .hp-plugins-table-wrapper td {
+        padding: 8px 6px;
+    }
+    
+    .hp-system-grid .hp-card {
+        padding: 15px;
+    }
+    
+    .hp-system-grid .hp-card .hp-stat-number {
+        font-size: 28px;
+    }
+    
+    .hp-company-card {
+        padding: 15px;
+    }
+    
+    .hp-company-logo .dashicons {
+        font-size: 36px;
+        width: 36px;
+        height: 36px;
+        padding: 12px;
+    }
+    
+    .hp-company-details h3 {
+        font-size: 24px;
+    }
+}
