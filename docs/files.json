@@ -1,0 +1,46 @@
+{
+ "title": "WP Plugin Boilerplate",
+ "description": "Khung plugin chuẩn để nhân bản khi làm plugin mới",
+ "repo": "hoangpham2263/wp-plugin-boilerplate",
+ "files": [
+  {
+   "path": "README.md",
+   "group": "",
+   "title": "Giới thiệu (README)"
+  },
+  {
+   "path": "hp_plugin.php",
+   "group": ""
+  },
+  {
+   "path": "core/config.php",
+   "group": "core",
+   "title": "config.php"
+  },
+  {
+   "path": "core/core.css",
+   "group": "core",
+   "title": "core.css"
+  },
+  {
+   "path": "core/core.php",
+   "group": "core",
+   "title": "core.php"
+  },
+  {
+   "path": "features/assets/README.md",
+   "group": "features",
+   "title": "assets/README.md"
+  },
+  {
+   "path": "features/assets/js/f0-features-handler.js",
+   "group": "features",
+   "title": "assets/js/f0-features-handler.js"
+  },
+  {
+   "path": "features/f0-hp-features-handler.php",
+   "group": "features",
+   "title": "f0-hp-features-handler.php"
+  }
+ ]
+}
